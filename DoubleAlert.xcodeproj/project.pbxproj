@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DAB7D3C926DD2C1E0034D60C /* DoubleAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */; };
-		DAB7D3CB26DD2C1F0034D60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */; };
+		DAB7D3CB26DD2C1F0034D60C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3CA26DD2C1F0034D60C /* MainView.swift */; };
 		DAB7D3CD26DD2C210034D60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB7D3CC26DD2C210034D60C /* Assets.xcassets */; };
 		DAB7D3D026DD2C210034D60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB7D3CF26DD2C210034D60C /* Preview Assets.xcassets */; };
 		DAB7D3DC26DD2C210034D60C /* DoubleAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3DB26DD2C210034D60C /* DoubleAlertTests.swift */; };
 		DAB7D3E726DD2C210034D60C /* DoubleAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3E626DD2C210034D60C /* DoubleAlertUITests.swift */; };
+		DAB7D3F526DD2C690034D60C /* AlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F426DD2C690034D60C /* AlertContext.swift */; };
+		DAB7D3F726DD2D4E0034D60C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */; };
+		DAB7D3F926DD30070034D60C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F826DD30070034D60C /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* Begin PBXFileReference section */
 		DAB7D3C526DD2C1E0034D60C /* DoubleAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAlertApp.swift; sourceTree = "<group>"; };
-		DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB7D3CA26DD2C1F0034D60C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DAB7D3CC26DD2C210034D60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAB7D3CF26DD2C210034D60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAB7D3D126DD2C210034D60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		DAB7D3E226DD2C210034D60C /* DoubleAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB7D3E626DD2C210034D60C /* DoubleAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAlertUITests.swift; sourceTree = "<group>"; };
 		DAB7D3E826DD2C210034D60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7D3F426DD2C690034D60C /* AlertContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
+		DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DAB7D3F826DD30070034D60C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,14 @@
 			isa = PBXGroup;
 			children = (
 				DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */,
-				DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */,
+				DAB7D3CA26DD2C1F0034D60C /* MainView.swift */,
 				DAB7D3CC26DD2C210034D60C /* Assets.xcassets */,
 				DAB7D3D126DD2C210034D60C /* Info.plist */,
 				DAB7D3D226DD2C210034D60C /* DoubleAlert.entitlements */,
 				DAB7D3CE26DD2C210034D60C /* Preview Content */,
+				DAB7D3F426DD2C690034D60C /* AlertContext.swift */,
+				DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */,
+				DAB7D3F826DD30070034D60C /* AppState.swift */,
 			);
 			path = DoubleAlert;
 			sourceTree = "<group>";
@@ -261,8 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB7D3CB26DD2C1F0034D60C /* ContentView.swift in Sources */,
+				DAB7D3CB26DD2C1F0034D60C /* MainView.swift in Sources */,
+				DAB7D3F926DD30070034D60C /* AppState.swift in Sources */,
 				DAB7D3C926DD2C1E0034D60C /* DoubleAlertApp.swift in Sources */,
+				DAB7D3F526DD2C690034D60C /* AlertContext.swift in Sources */,
+				DAB7D3F726DD2D4E0034D60C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

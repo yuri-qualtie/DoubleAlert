@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct DoubleAlertApp: App {
+    @ObservedObject var viewModel = MainViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView(viewModel: viewModel)
+                .frame(width: 300, height: 300)
+                .alert(item: $viewModel.alertContext) {
+                    $0.alert()
+                }
         }
     }
 }
