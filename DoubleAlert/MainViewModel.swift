@@ -11,7 +11,12 @@ import SwiftUI
 
 class MainViewModel: ObservableObject {
     @Published var state: AppState = .login
-    @Published var alertContext: AlertContext?
+    
+    let alertModel: AlertModel
+    
+    init(alertModel: AlertModel) {
+        self.alertModel = alertModel
+    }
     
     func login() {
         present(.welcome)
@@ -25,7 +30,7 @@ class MainViewModel: ObservableObject {
     
     private func present(_ alertContext: AlertContext) {
         //DispatchQueue.main.async {
-            self.alertContext = alertContext
+            self.alertModel.alertContext = alertContext
         //}
     }
 }

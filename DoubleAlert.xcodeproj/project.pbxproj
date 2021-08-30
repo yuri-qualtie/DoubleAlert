@@ -16,6 +16,7 @@
 		DAB7D3F526DD2C690034D60C /* AlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F426DD2C690034D60C /* AlertContext.swift */; };
 		DAB7D3F726DD2D4E0034D60C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */; };
 		DAB7D3F926DD30070034D60C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3F826DD30070034D60C /* AppState.swift */; };
+		DAB7D3FB26DD3FF10034D60C /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3FA26DD3FF10034D60C /* AlertModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DAB7D3F426DD2C690034D60C /* AlertContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
 		DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DAB7D3F826DD30070034D60C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DAB7D3FA26DD3FF10034D60C /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				DAB7D3F426DD2C690034D60C /* AlertContext.swift */,
 				DAB7D3F626DD2D4E0034D60C /* MainViewModel.swift */,
 				DAB7D3F826DD30070034D60C /* AppState.swift */,
+				DAB7D3FA26DD3FF10034D60C /* AlertModel.swift */,
 			);
 			path = DoubleAlert;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				DAB7D3CB26DD2C1F0034D60C /* MainView.swift in Sources */,
 				DAB7D3F926DD30070034D60C /* AppState.swift in Sources */,
+				DAB7D3FB26DD3FF10034D60C /* AlertModel.swift in Sources */,
 				DAB7D3C926DD2C1E0034D60C /* DoubleAlertApp.swift in Sources */,
 				DAB7D3F526DD2C690034D60C /* AlertContext.swift in Sources */,
 				DAB7D3F726DD2D4E0034D60C /* MainViewModel.swift in Sources */,
