@@ -21,6 +21,8 @@ struct MainView: View {
                 Text("Profile!")
                 Button("Logout", action: viewModel.logout)
             }
+        case .transition:
+            Rectangle()
         }
     }
 }

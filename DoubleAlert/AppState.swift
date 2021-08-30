@@ -10,4 +10,5 @@ import Foundation
 enum AppState {
     case login
     case profile
+    case transition
 }

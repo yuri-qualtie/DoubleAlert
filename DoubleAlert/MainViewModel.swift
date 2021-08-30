@@ -15,23 +15,38 @@ class MainViewModel: ObservableObject {
     
     func login() {
         present(.welcome)
-        navigate(.profile)
+        route(to: .profile)
     }
     
     func logout() {
-        navigate(.login)
+        route(to: .login)
         present(.error(message: "Some API error occured."))
     }
     
-    private func navigate(_ state: AppState) {
-        withAnimation(.linear(duration: 0.5)) {
-            self.state = state
+    private func present(_ alertContext: AlertContext) {
+        //DispatchQueue.main.async {
+            self.alertContext = alertContext
+        //}
+    }
+}
+
+// Router:
+
+extension MainViewModel {
+    func transition(to state: AppState) {
+        let fadeOutTimeSeconds = 0.25
+        withAnimation(.easeIn(duration: fadeOutTimeSeconds)) {
+            self.state = .transition
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + fadeOutTimeSeconds) {
+            withAnimation(.linear(duration: 0.5)) {
+                self.state = state
+            }
         }
     }
     
-    private func present(_ alertContext: AlertContext) {
-        DispatchQueue.main.async {
-            self.alertContext = alertContext
-        }
+    private func route(to state: AppState) {
+        transition(to: state)
     }
 }
