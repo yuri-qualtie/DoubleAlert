@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB7D3C926DD2C1E0034D60C /* DoubleAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */; };
+		DAB7D3CB26DD2C1F0034D60C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */; };
+		DAB7D3CD26DD2C210034D60C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB7D3CC26DD2C210034D60C /* Assets.xcassets */; };
+		DAB7D3D026DD2C210034D60C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB7D3CF26DD2C210034D60C /* Preview Assets.xcassets */; };
+		DAB7D3DC26DD2C210034D60C /* DoubleAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3DB26DD2C210034D60C /* DoubleAlertTests.swift */; };
+		DAB7D3E726DD2C210034D60C /* DoubleAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB7D3E626DD2C210034D60C /* DoubleAlertUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB7D3D826DD2C210034D60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB7D3BD26DD2C1E0034D60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB7D3C426DD2C1E0034D60C;
+			remoteInfo = DoubleAlert;
+		};
+		DAB7D3E326DD2C210034D60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB7D3BD26DD2C1E0034D60C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB7D3C426DD2C1E0034D60C;
+			remoteInfo = DoubleAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB7D3C526DD2C1E0034D60C /* DoubleAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAlertApp.swift; sourceTree = "<group>"; };
+		DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAB7D3CC26DD2C210034D60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB7D3CF26DD2C210034D60C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB7D3D126DD2C210034D60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7D3D226DD2C210034D60C /* DoubleAlert.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DoubleAlert.entitlements; sourceTree = "<group>"; };
+		DAB7D3D726DD2C210034D60C /* DoubleAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB7D3DB26DD2C210034D60C /* DoubleAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAlertTests.swift; sourceTree = "<group>"; };
+		DAB7D3DD26DD2C210034D60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB7D3E226DD2C210034D60C /* DoubleAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB7D3E626DD2C210034D60C /* DoubleAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleAlertUITests.swift; sourceTree = "<group>"; };
+		DAB7D3E826DD2C210034D60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB7D3C226DD2C1E0034D60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3D426DD2C210034D60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3DF26DD2C210034D60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB7D3BC26DD2C1E0034D60C = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3C726DD2C1E0034D60C /* DoubleAlert */,
+				DAB7D3DA26DD2C210034D60C /* DoubleAlertTests */,
+				DAB7D3E526DD2C210034D60C /* DoubleAlertUITests */,
+				DAB7D3C626DD2C1E0034D60C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB7D3C626DD2C1E0034D60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3C526DD2C1E0034D60C /* DoubleAlert.app */,
+				DAB7D3D726DD2C210034D60C /* DoubleAlertTests.xctest */,
+				DAB7D3E226DD2C210034D60C /* DoubleAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB7D3C726DD2C1E0034D60C /* DoubleAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3C826DD2C1E0034D60C /* DoubleAlertApp.swift */,
+				DAB7D3CA26DD2C1F0034D60C /* ContentView.swift */,
+				DAB7D3CC26DD2C210034D60C /* Assets.xcassets */,
+				DAB7D3D126DD2C210034D60C /* Info.plist */,
+				DAB7D3D226DD2C210034D60C /* DoubleAlert.entitlements */,
+				DAB7D3CE26DD2C210034D60C /* Preview Content */,
+			);
+			path = DoubleAlert;
+			sourceTree = "<group>";
+		};
+		DAB7D3CE26DD2C210034D60C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3CF26DD2C210034D60C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAB7D3DA26DD2C210034D60C /* DoubleAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3DB26DD2C210034D60C /* DoubleAlertTests.swift */,
+				DAB7D3DD26DD2C210034D60C /* Info.plist */,
+			);
+			path = DoubleAlertTests;
+			sourceTree = "<group>";
+		};
+		DAB7D3E526DD2C210034D60C /* DoubleAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB7D3E626DD2C210034D60C /* DoubleAlertUITests.swift */,
+				DAB7D3E826DD2C210034D60C /* Info.plist */,
+			);
+			path = DoubleAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB7D3C426DD2C1E0034D60C /* DoubleAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB7D3EB26DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlert" */;
+			buildPhases = (
+				DAB7D3C126DD2C1E0034D60C /* Sources */,
+				DAB7D3C226DD2C1E0034D60C /* Frameworks */,
+				DAB7D3C326DD2C1E0034D60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleAlert;
+			productName = DoubleAlert;
+			productReference = DAB7D3C526DD2C1E0034D60C /* DoubleAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB7D3D626DD2C210034D60C /* DoubleAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB7D3EE26DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlertTests" */;
+			buildPhases = (
+				DAB7D3D326DD2C210034D60C /* Sources */,
+				DAB7D3D426DD2C210034D60C /* Frameworks */,
+				DAB7D3D526DD2C210034D60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB7D3D926DD2C210034D60C /* PBXTargetDependency */,
+			);
+			name = DoubleAlertTests;
+			productName = DoubleAlertTests;
+			productReference = DAB7D3D726DD2C210034D60C /* DoubleAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB7D3E126DD2C210034D60C /* DoubleAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB7D3F126DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlertUITests" */;
+			buildPhases = (
+				DAB7D3DE26DD2C210034D60C /* Sources */,
+				DAB7D3DF26DD2C210034D60C /* Frameworks */,
+				DAB7D3E026DD2C210034D60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB7D3E426DD2C210034D60C /* PBXTargetDependency */,
+			);
+			name = DoubleAlertUITests;
+			productName = DoubleAlertUITests;
+			productReference = DAB7D3E226DD2C210034D60C /* DoubleAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB7D3BD26DD2C1E0034D60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DAB7D3C426DD2C1E0034D60C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DAB7D3D626DD2C210034D60C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DAB7D3C426DD2C1E0034D60C;
+					};
+					DAB7D3E126DD2C210034D60C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DAB7D3C426DD2C1E0034D60C;
+					};
+				};
+			};
+			buildConfigurationList = DAB7D3C026DD2C1E0034D60C /* Build configuration list for PBXProject "DoubleAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB7D3BC26DD2C1E0034D60C;
+			productRefGroup = DAB7D3C626DD2C1E0034D60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB7D3C426DD2C1E0034D60C /* DoubleAlert */,
+				DAB7D3D626DD2C210034D60C /* DoubleAlertTests */,
+				DAB7D3E126DD2C210034D60C /* DoubleAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB7D3C326DD2C1E0034D60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB7D3D026DD2C210034D60C /* Preview Assets.xcassets in Resources */,
+				DAB7D3CD26DD2C210034D60C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3D526DD2C210034D60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3E026DD2C210034D60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB7D3C126DD2C1E0034D60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB7D3CB26DD2C1F0034D60C /* ContentView.swift in Sources */,
+				DAB7D3C926DD2C1E0034D60C /* DoubleAlertApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3D326DD2C210034D60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB7D3DC26DD2C210034D60C /* DoubleAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB7D3DE26DD2C210034D60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB7D3E726DD2C210034D60C /* DoubleAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB7D3D926DD2C210034D60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB7D3C426DD2C1E0034D60C /* DoubleAlert */;
+			targetProxy = DAB7D3D826DD2C210034D60C /* PBXContainerItemProxy */;
+		};
+		DAB7D3E426DD2C210034D60C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB7D3C426DD2C1E0034D60C /* DoubleAlert */;
+			targetProxy = DAB7D3E326DD2C210034D60C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAB7D3E926DD2C210034D60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB7D3EA26DD2C210034D60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAB7D3EC26DD2C210034D60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoubleAlert/DoubleAlert.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DoubleAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoubleAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAB7D3ED26DD2C210034D60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DoubleAlert/DoubleAlert.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DoubleAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DoubleAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DAB7D3EF26DD2C210034D60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleAlert.app/Contents/MacOS/DoubleAlert";
+			};
+			name = Debug;
+		};
+		DAB7D3F026DD2C210034D60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoubleAlert.app/Contents/MacOS/DoubleAlert";
+			};
+			name = Release;
+		};
+		DAB7D3F226DD2C210034D60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DoubleAlert;
+			};
+			name = Debug;
+		};
+		DAB7D3F326DD2C210034D60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DoubleAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DoubleAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DoubleAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB7D3C026DD2C1E0034D60C /* Build configuration list for PBXProject "DoubleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7D3E926DD2C210034D60C /* Debug */,
+				DAB7D3EA26DD2C210034D60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB7D3EB26DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7D3EC26DD2C210034D60C /* Debug */,
+				DAB7D3ED26DD2C210034D60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB7D3EE26DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7D3EF26DD2C210034D60C /* Debug */,
+				DAB7D3F026DD2C210034D60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB7D3F126DD2C210034D60C /* Build configuration list for PBXNativeTarget "DoubleAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB7D3F226DD2C210034D60C /* Debug */,
+				DAB7D3F326DD2C210034D60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB7D3BD26DD2C1E0034D60C /* Project object */;
+}
