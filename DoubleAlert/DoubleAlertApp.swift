@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct DoubleAlertApp: App {
     @ObservedObject var alertModel: AlertModel
-    @ObservedObject var viewModel: MainViewModel
+    var viewModel: MainViewModel
     
     init() {
         let alertModel = AlertModel()
